@@ -652,6 +652,11 @@ video {
   letter-spacing: -0.05em;
 }
 
+.text-gun-metal {
+  --tw-text-opacity: 1;
+  color: hsl(215 31% 21% / var(--tw-text-opacity));
+}
+
 /* inter-regular - latin */
 
 @font-face {
