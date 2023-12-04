@@ -538,21 +538,15 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 592px) {
   .container {
-    max-width: 640px;
+    max-width: 592px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
   }
 }
 
@@ -696,7 +690,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .lg\:right-1\/2 {
     right: 50%;
   }
