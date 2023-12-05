@@ -2,12 +2,12 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    screens: {
+      "sm": "592px",
+      "md": "768px",
+      "lg": "1280px"
+    },
     extend: {
-      screens: {
-        "sm": "592px",
-        "md": "768px",
-        "lg": "1280px"
-      },
       colors: {
         "transparent": "transparent",
         "blue": "hsl(227, 92%, 58%)",
