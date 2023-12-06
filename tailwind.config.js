@@ -22,6 +22,11 @@ module.exports = {
         "advice-from": "hsla(216, 95%, 92%, 30%)",
         "advice-to": "hsla(184, 95%, 92%, 20%)",
         "red": "#ef4444",
+      },
+      boxShadow: {
+        none: "0 0 #0000;",
+        form: "16px 32px 56px 0 hsla(211, 40%, 69%, 25%)",
+        radio: "0 0 1px 1px hsl(200, 24%, 88%)",
       }
     },
   },
