@@ -27,6 +27,13 @@ module.exports = {
         none: "0 0 #0000;",
         form: "16px 32px 56px 0 hsla(211, 40%, 69%, 25%)",
         radio: "0 0 1px 1px hsl(200, 24%, 88%)",
+      },
+      backgroundPosition: {
+        "curved-line-left": "top 0 right 60px",
+        "curved-line-right": "top 250px left 160px",
+      },
+      transitionProperty: {
+        radio: "background-color, box-shadow",
       }
     },
   },
