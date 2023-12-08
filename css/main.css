@@ -596,6 +596,10 @@ video {
   top: 50%;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -627,6 +631,10 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -730,9 +738,17 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-b-\[2\.1875rem\] {
   border-bottom-right-radius: 2.1875rem;
   border-bottom-left-radius: 2.1875rem;
+}
+
+.border-\[0\.0625rem\] {
+  border-width: 0.0625rem;
 }
 
 .border-borders {
@@ -768,6 +784,11 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -784,6 +805,14 @@ video {
   padding-right: 18rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -796,6 +825,21 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -1051,6 +1095,10 @@ body {
 
   .lg\:gap-24 {
     gap: 6rem;
+  }
+
+  .lg\:gap-6 {
+    gap: 1.5rem;
   }
 
   .lg\:pb-\[13\.5rem\] {
