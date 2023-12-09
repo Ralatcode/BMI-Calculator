@@ -868,6 +868,10 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1049,6 +1053,10 @@ body {
     margin-bottom: 8rem;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1105,6 +1113,10 @@ body {
 
   .lg\:max-w-\[27rem\] {
     max-width: 27rem;
+  }
+
+  .lg\:max-w-\[35\.25rem\] {
+    max-width: 35.25rem;
   }
 
   .lg\:translate-x-\[300px\] {
