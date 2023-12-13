@@ -1220,6 +1220,10 @@ body {
     background-image: url(https://john-mirage-fm-body-mass-index-calculator.vercel.app/assets/image-man-eating-3c3b4a46.webp);
   }
 
+  .lg\:bg-\[url\(\'\.\/images\'\)\] {
+    background-image: url('./images');
+  }
+
   .lg\:bg-curved-line-left {
     background-position: top 0 right 60px;
   }
