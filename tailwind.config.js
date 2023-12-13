@@ -34,6 +34,9 @@ module.exports = {
       },
       transitionProperty: {
         radio: "background-color, box-shadow",
+      },
+      spacing: {
+        imageWidth: `calc(100% + 3rem)`
       }
     },
   },
