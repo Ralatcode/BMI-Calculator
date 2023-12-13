@@ -1077,6 +1077,22 @@ body {
     margin-bottom: 2.5rem;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1102,6 +1118,10 @@ body {
 
   .lg\:mt-\[10\.5rem\] {
     margin-top: 10.5rem;
+  }
+
+  .lg\:mb-\[7\.5rem\] {
+    margin-bottom: 7.5rem;
   }
 
   .lg\:flex {
@@ -1192,6 +1212,22 @@ body {
     border-bottom-right-radius: 6.25rem;
   }
 
+  .lg\:bg-\[url\(\'https\:\/\/john-mirage-fm-body-mass-index-calculator\.vercel\.app\/assets\/image-man-eating-3c3b4a46\.webp\'\)\] {
+    background-image: url('https://john-mirage-fm-body-mass-index-calculator.vercel.app/assets/image-man-eating-3c3b4a46.webp');
+  }
+
+  .lg\:bg-\[url\(https\:\/\/john-mirage-fm-body-mass-index-calculator\.vercel\.app\/assets\/image-man-eating-3c3b4a46\.webp\)\] {
+    background-image: url(https://john-mirage-fm-body-mass-index-calculator.vercel.app/assets/image-man-eating-3c3b4a46.webp);
+  }
+
+  .lg\:bg-curved-line-left {
+    background-position: top 0 right 60px;
+  }
+
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -1207,6 +1243,10 @@ body {
 
   .lg\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .lg\:pt-12 {
+    padding-top: 3rem;
   }
 
   .lg\:text-left {
