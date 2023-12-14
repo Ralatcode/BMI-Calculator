@@ -638,6 +638,10 @@ video {
   margin-bottom: 4.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -843,6 +847,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .font-semibold {
@@ -1089,6 +1097,10 @@ body {
     margin-top: 10.5rem;
   }
 
+  .lg\:mt-\[9\.75rem\] {
+    margin-top: 9.75rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1204,5 +1216,9 @@ body {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-\[3rem\] {
+    font-size: 3rem;
   }
 }
