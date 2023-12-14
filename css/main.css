@@ -642,6 +642,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -678,6 +682,14 @@ video {
   height: 100%;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -696,6 +708,14 @@ video {
 
 .w-imageWidth {
   width: calc(100% + 3rem);
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-\[90\%\] {
@@ -741,6 +761,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .rounded-2xl {
@@ -794,12 +818,22 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-advice-from {
+  --tw-gradient-from: hsla(216, 95%, 92%, 30%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsla(216, 95%, 92%, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-form-from {
   --tw-gradient-to: hsl(227, 92%, 59%) var(--tw-gradient-to-position);
 }
 
 .to-hero-to {
   --tw-gradient-to: hsl(216, 95%, 92%) var(--tw-gradient-to-position);
+}
+
+.to-advice-to {
+  --tw-gradient-to: hsla(184, 95%, 92%, 20%) var(--tw-gradient-to-position);
 }
 
 .p-6 {
@@ -813,6 +847,11 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pb-24 {
@@ -1050,6 +1089,10 @@ body {
     max-width: 27rem;
   }
 
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1062,8 +1105,20 @@ body {
     gap: 4rem;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:rounded-\[2\.185rem\] {
+    border-radius: 2.185rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
   }
 }
 
@@ -1099,6 +1154,18 @@ body {
 
   .lg\:mt-\[9\.75rem\] {
     margin-top: 9.75rem;
+  }
+
+  .lg\:mb-44 {
+    margin-bottom: 11rem;
+  }
+
+  .lg\:mb-11 {
+    margin-bottom: 2.75rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -1148,6 +1215,10 @@ body {
   .lg\:translate-x-\[300px\] {
     --tw-translate-x: 300px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
