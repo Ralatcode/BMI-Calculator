@@ -1256,6 +1256,10 @@ body {
     background-image: url('./images/pattern-curved-line-left.svg');
   }
 
+  .lg\:bg-\[url\(\'\/images\/pattern-curved-line-left\.svg\'\)\] {
+    background-image: url('/images/pattern-curved-line-left.svg');
+  }
+
   .lg\:bg-curved-line-left {
     background-position: top 0 right 60px;
   }
