@@ -854,6 +854,11 @@ video {
   padding-bottom: 3.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -1122,12 +1127,21 @@ body {
     padding-right: 2.5rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:pb-24 {
     padding-bottom: 6rem;
   }
 }
 
 @media (min-width: 1280px) {
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:right-1\/2 {
     right: 50%;
   }
@@ -1262,6 +1276,10 @@ body {
 
   .lg\:bg-curved-line-left {
     background-position: top 0 right 60px;
+  }
+
+  .lg\:bg-curved-line-right {
+    background-position: top 250px left 160px;
   }
 
   .lg\:bg-no-repeat {
