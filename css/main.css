@@ -1144,6 +1144,10 @@ body {
     padding: 2rem;
   }
 
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1346,6 +1350,10 @@ body {
 
   .lg\:bg-no-repeat {
     background-repeat: no-repeat;
+  }
+
+  .lg\:p-14 {
+    padding: 3.5rem;
   }
 
   .lg\:px-14 {
