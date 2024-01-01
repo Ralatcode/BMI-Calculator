@@ -1,4 +1,6 @@
 let radios = document.querySelectorAll("input[type='radio'");
+const metric = document.querySelector('#metric');
+const imperial = document.querySelector('#imperial');
 radios = Array.from(radios)
 
 radios.forEach((radio) => {
