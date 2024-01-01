@@ -7,7 +7,14 @@ radios.forEach((radio) => {
     radio.addEventListener('change', () => {
         for (const eachRadio of radios) {
             if (eachRadio.checked) {
-                console.log(eachRadio.value)
+                if (eachRadio === radios[1]) {
+                    metric.style.display = 'none';
+                    imperial.style.display = 'grid';
+                } else if (eachRadio === radios[0]) {
+                    imperial.style.display = 'none';
+                    metric.style.display = 'grid';
+                }
+                // console.log(eachRadio.value)
             }
         }
     })
