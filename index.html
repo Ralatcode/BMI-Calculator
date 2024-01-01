@@ -24,7 +24,7 @@
                     <h2 class="mb-6 text-gun-metal text-2xl font-semibold md:mb-8">
                         Enter your details below
                     </h2>
-                    <form class="mb-6 md:mb-8 grid grid-cols-2 gap-6">
+                    <form class="mb-6 md:mb-8 grid grid-cols-2 gap-6" id="metric-form">
                         <label class="relative flex flex-row items-center gap-4">
                             <input type="radio" name="measure-type" class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer peer" value="Metric" checked>
                             <span class="flex justify-center items-center rounded-full w-8 h-8 shadow-radio transition-radio peer-hover:shadow-none peer-hover:bg-blue/20 peer-checked:shadow-none peer-checked:bg-blue/20 before:block before:w-4 before:h-4 before:rounded-full before:scale-0 before:bg-blue before:transition-transform peer-checked:before:scale-100"></span>
@@ -38,7 +38,7 @@
                         </label>
                     </form>
 
-                    <form class="mb-6 md:mb-8 grid sm:grid-cols-2 gap-4 items-end lg:gap-6">
+                    <form class="mb-6 md:mb-8 grid sm:grid-cols-2 gap-4 items-end lg:gap-6" id="metric">
                         <div class="relative">
                             <div>
                                 <label class="mb-2 block text-sm text-dark-electric-blue">
@@ -70,7 +70,7 @@
                         </div>
                     </form>
                         <!-- imperial -->
-                    <form class="mb-6 md:mb-8 grid sm:grid-cols-2 gap-4 items-end lg:gap-y-4 lg:gap-p-x-6">
+                    <form class="mb-6 md:mb-8 grid sm:grid-cols-2 gap-4 items-end lg:gap-y-4 lg:gap-p-x-6" id="imperial">
                         <div class="relative">
                             <div>
                                 <label class="mb-2 block text-sm text-dark-electric-blue">
