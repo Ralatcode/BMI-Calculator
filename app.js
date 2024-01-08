@@ -14,9 +14,7 @@ radios.forEach((radio) => {
                     imperial.style.display = 'none';
                     metric.style.display = 'grid';
                 }
-                // console.log(eachRadio.value)
             }
         }
     })
 })
-// console.log(radios)
