@@ -10,11 +10,11 @@ radios.forEach((radio) => {
                 if (eachRadio === radios[1]) {
                     metric.style.display = 'none';
                     imperial.style.display = 'grid';
-                    getKg();
                 } else if (eachRadio === radios[0]) {
                     imperial.style.display = 'none';
                     metric.style.display = 'grid';
                     getCm();
+                    getKg();
                 }
             }
         }
@@ -39,6 +39,12 @@ function getKg() {
     })
 }
 
+function BMICalculator (weight, height) {
+    const result = weight/(height**2) * 10000;
+    return result.toFixed(2);
+}
+
+console.log(BMICalculator(85, 180));
 
 
 getCm();
