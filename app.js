@@ -45,6 +45,7 @@ function BMICalculator (weight, height) {
 }
 
 console.log(BMICalculator(85, 180));
+console.log(typeof(24));
 
 
 getCm();
