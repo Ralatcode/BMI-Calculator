@@ -13,8 +13,17 @@ radios.forEach((radio) => {
                 } else if (eachRadio === radios[0]) {
                     imperial.style.display = 'none';
                     metric.style.display = 'grid';
-                    getCm();
-                    getKg();
+                    const cmValue = getCm();
+                    const kgValue = getKg();
+
+                    if (cmValue === undefined || kgValue === undefined) {
+                        return;
+                    } else if (cmValue === 0 || kgValue === 0) {
+                        return;
+                    } else {
+                        console.log('calculate...')
+                    }
+
                 }
             }
         }
