@@ -36,7 +36,7 @@ function getCm() {
     const cm = document.querySelector("input[name='centimeter']");
     cm.addEventListener('input', () => {
         console.log(cm.value)
-        return cm.value;
+        return cm.valuef;
     })
 }
 
